@@ -849,7 +849,7 @@ class _CellReportSheetState extends State<CellReportSheet> {
   }
 }
 
-class MemberProfileView extends StatelessWidget {
+class MemberProfileView extends StatefulWidget {
   final String churchName;
   final VoidCallback onSwitchChurch;
 
