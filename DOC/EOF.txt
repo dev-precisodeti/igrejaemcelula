@@ -1,0 +1,18 @@
+
+---
+
+### 2. Inicializar o Git e enviar para o seu GitHub
+
+Crie um repositório vazio lá na sua conta do GitHub (ex.: `igrejaemcelula`) e rode no terminal:
+
+```bash
+cd /home/andersonpilter/Projetos/igrejaemcelula
+
+git init
+git branch -M main
+git add .
+git commit -m "feat: estrutura inicial do app Igreja em Celula (Flutter + PostgreSQL schema)"
+
+# Substitua SEU_USUARIO pelo seu nome de usuário do GitHub:
+git remote add origin https://github.com/SEU_USUARIO/igrejaemcelula.git
+git push -u origin main
